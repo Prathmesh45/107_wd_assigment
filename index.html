@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Development Experiments</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:white;
+    min-height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.92)),
+    url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dr._Bhimrao_Ambedkar.jpg/800px-Dr._Bhimrao_Ambedkar.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.navbar{
+    background:#08111f;
+    padding:20px;
+    text-align:center;
+    font-size:32px;
+    font-weight:700;
+    border-bottom:2px solid #1e90ff;
+}
+
+.container{
+    padding:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgba(8,17,31,0.88);
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #1e90ff;
+    text-align:center;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #1e90ff;
+}
+
+.card h3{
+    margin-bottom:18px;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#1e90ff;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0077cc;
+}
+
+</style>
+</head>
+
+<body>
+
+       <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">01</div>
+                    <div class="card-title">First Webpage</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Introduction to HTML basics with webpage structure and semantic elements.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Basics</span>
+                    </div>
+
+                    <a href="assignment1.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">02</div>
+                    <div class="card-title">Static Webpage</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Building static web pages using HTML and CSS layout techniques.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Layout</span>
+                    </div>
+
+                    <a href="assignmnet2.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">03</div>
+                    <div class="card-title">Text Formatting</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Working with formatting tags including bold, italic, underline and more.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Text Tags</span>
+                    </div>
+
+                    <a href="assignment3.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 4 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">04</div>
+                    <div class="card-title">Lists & Tags</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Understanding ordered lists, unordered lists and semantic HTML tags.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Lists</span>
+                        <span class="tag">HTML</span>
+                    </div>
+
+                    <a href="assignmnet4.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 5 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">05</div>
+                    <div class="card-title">Images</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Understanding image integration, responsive images and optimization.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Images</span>
+                        <span class="tag">HTML</span>
+                    </div>
+
+                    <a href="assignment5.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 6 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">06</div>
+                    <div class="card-title">iFrames</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Embedding external web content like maps and videos using iFrames.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">iFrames</span>
+                        <span class="tag">HTML</span>
+                    </div>
+
+                    <a href="assignment6.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 7 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">07</div>
+                    <div class="card-title">Hyperlinks</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Creating hyperlinks using text and images with navigation concepts.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Links</span>
+                        <span class="tag">Navigation</span>
+                    </div>
+
+                    <a href="assignment7.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 8 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">08</div>
+                    <div class="card-title">Tables</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Designing tables using rows, columns and advanced table structures.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Tables</span>
+                        <span class="tag">HTML</span>
+                    </div>
+
+                    <a href="assginment8.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 9 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">09</div>
+                    <div class="card-title">Forms</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Building interactive forms using input fields and validation.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Forms</span>
+                        <span class="tag">Input</span>
+                    </div>
+
+                    <a href="assignment9.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 10 -->
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="assignment-number">10</div>
+                    <div class="card-title">Resume Website</div>
+                </div>
+
+                <div class="card-body">
+
+                    <p class="description">
+                        Creating a professional resume website using HTML and CSS.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Portfolio</span>
+                        <span class="tag">CSS</span>
+                    </div>
+
+                    <a href="Assignment 10/assignment10.html" class="btn">
+                        View Assignment
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- XML SECTION -->
+
+        
+        </div>
+
+        <h2 class="section-title">XML & Advanced Assignments</h2>
+
+        <div class="assignments-grid">
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="assignment-number">11</div>
+                    <div class="card-title">XML CSS</div>
+                </div>
+
+                <div class="card-body">
+                    <p class="description">
+                        XML practicals using CSS styling for structured data presentation.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">XML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+
+                    <a href="Exp11/library.xml" class="btn">
+                        View Assignment
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="assignment-number">12</div>
+                    <div class="card-title">XML using XSLT</div>
+                </div>
+
+                <div class="card-body">
+                    <p class="description">
+                        XML transformation using XSLT stylesheets for HTML output generation.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">XML</span>
+                        <span class="tag">XSLT</span>
+                    </div>
+
+                    <a href="Exp 12/cdcatalog_output.html" class="btn">
+                        View Assignment
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="assignment-number">13</div>
+                    <div class="card-title">Students XML Project</div>
+                </div>
+
+                <div class="card-body">
+                    <p class="description">
+                        XML and XSL practical using student data transformation into HTML output.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">XML</span>
+                        <span class="tag">XSL</span>
+                    </div>
+
+                    <a href="Exp 13/students_output.html" class="btn">
+                        View Assignment
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
